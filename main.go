@@ -15,7 +15,7 @@ func main() {
 	app.Version = "0.0.1"
 
 	app.Action = func(c *cli.Context) error {
-		fmt.Println("Hello!!")
+		fmt.Println("Hello World")
 		return nil
 	}
 
